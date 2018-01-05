@@ -1,0 +1,307 @@
+*{
+	margin:0;
+	padding:0;
+	color: #fff;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'youyuan';
+	/*font:16px/1.8 "Microsoft Yahet",verdana;*/
+    font-weight: normal;
+}
+
+nav .nav_wrap{
+	width: 80%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+nav .nav_wrap .nav_logo {
+	width:20%;
+	float: left;
+	position: fixed;
+	padding-top: 10px;
+	z-index: 999;
+}
+
+nav .nav_wrap .nav_logo a{
+    font-size: 3.5rem;
+    color: #fff;
+    /*font-weight: bold;*/
+}
+
+nav .nav_wrap .nav_bar {
+	width:60%;
+	float: right;
+}
+
+.section{
+    /*background-color: #fff;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+.section h1{
+    font-size: 40px;
+
+}
+
+.section p{
+    font-size: 20px;
+}
+
+.section1{
+	display: block;
+    background: url(../images/bg1.png)no-repeat center;
+
+}
+
+.home_img{
+	height: 15%;
+    margin: 50px auto 3%;
+    padding: 6px;
+    text-align: center;
+}
+
+.home_img img{
+	height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.home_text{
+	width: 40%;
+	margin: auto 30%;
+}
+
+.home_text h2{
+	line-height: 1.8;
+}
+
+.home_text hr{
+    /*width: 60%;*/
+    height: 2px;
+    background: #999999;
+    border: 0;
+    margin: 10px auto 5% auto;
+    -webkit-animation: 1s to_width ease-in 0s 1;
+    -moz-animation: 1s to_width ease-in 0s 1;
+    -ms-animation: 1s to_width ease-in 0s 1;
+    -o-animation: 1s to_width ease-in 0s 1;
+    animation: 1s to_width ease-in 0s 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.section .box{
+    background-color: #fff;
+    height: 90%;
+}
+
+.section2,.section3,.section4,.section5{
+    display: block;
+    background: #D6D6D6;
+    padding: 50px
+}
+
+.section2 p,.section3 p,.section4 p{
+    margin-top: 30px;
+    color: #333;
+    line-height: 2.8;
+}
+
+.section2 hr,.section3 hr,.section4 hr{
+    width: 80%;
+    margin-left: 10%;
+    height: 2px;
+    background: #9eddf2;
+    border: 0;
+}
+
+table{
+    margin: 20px auto;
+}
+
+.section2 table tr td{
+    font-size: 1.2rem;
+    padding: 15px 15px 15px 30px;
+    text-align: center;
+    color: #333;
+}
+
+
+.section3 .program{
+    padding: 20px 0 0 100px;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+}
+
+.section3 .program_time{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    padding: 40px 0 40px 0;
+    background: #E86064;
+    border-radius: 50%;
+    float: left;
+}
+
+.section3 .program_text{
+    padding-left: 160px;
+}
+
+.section3 .program_text:after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 240px;
+    border-left: solid 1px #80d6f2;
+}
+
+
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    position: absolute;
+    top: 30px;
+    left: 260px;
+}
+
+
+.exCon{
+    background: #fff;
+    border-bottom: solid 4px #e5e5e5;
+    padding: 22px 47px 20px 47px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.exCon h4{
+    color: #666;
+    padding-bottom: 3px;
+}
+
+.exCon h5{
+    color: #666;
+}
+
+.exCon p{
+    color: #666;
+    line-height: 21px;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.section4 .skill_con{
+    overflow: hidden;
+    /*width: 80%;*/
+}
+
+.section5 .slide img {
+    height: 100%;
+    width: 100%;
+}
+
+.skill_level{
+    width: 30%;
+    float:left;
+    overflow: hidden;
+}
+
+.canvas_con{
+    width: 160px;
+    height: 160px;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+.text_con{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+canvas{
+    position: fixed;
+    left: 150px;
+}
+
+.skill_text{
+    width: 60%;
+    float: right;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.skill_text p{
+    margin: 0;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.text_con p{
+    font-size: 1.5rem;
+    line-height: 2.9rem;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+
+
+.slide{
+	font-size: 30px;
+	text-align: center;
+}
+
+#fullpageMenu{
+	font-size: 20px;
+	position: fixed;
+	padding: 10px 0;
+	width: 60%;
+	top: 20px;
+	right:100px;
+	z-index: 999;
+}
+
+#fullpageMenu li{
+    float: left;
+    width: 18%;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#fullpageMenu li a{
+	font-weight: bold;
+	line-height: 1.5;
+	display: inline-block;
+
+}
+
+#fullpageMenu li a:after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #80d6f2;
+    transition: width .5s ease-in;
+    -moz-transition: width .5s ease-in;
+    -webkit-transition: width .5s ease-in;
+    -o-transition: width .5s ease-in;
+
+}
+
+#fullpageMenu li a:hover:after{
+    width: 100%;
+}
